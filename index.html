@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+    <!-- icon setup for tab -->
+     <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSof8Vcd3gI_DNhqa9Q3z7Y9HPUpSbfIyYk-A4kA_Vo0g&s=10">
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+QLD+Hand:wght@400..700&family=Instrument+Serif:ital@0;1&family=Playwrite+BE+WAL+Guides&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <a class="brand" href="">
+            <i class="fa-solid fa-couch"></i>
+            <span class="brandname">Wood Furniture</span>
+        </a>
+
+        <!-- checkbox -->
+         <input type="checkbox" id="check">
+         <!-- label include 2 iconcs -->
+          <label for="check" class="icons">
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <i id="cancelicon" class="fa-regular fa-circle-xmark"></i>
+          </label>
+        <!-- links -->
+         <ul class="navlinks">
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#products" class="link">Products</a></li>
+            <li class="links"><a href="#banner" class="link">About</a></li>
+            <li class="links"><a href="#content" class="link">Contact</a></li>
+         </ul>
+     </nav>
+     <!-- hero section -->
+      <section class="hero" id="home">
+        <!-- text content -->
+        <div>
+            <h1 id="heroTitle">Modern Furniture for your Home</h1>
+            <p id="heroPara">Discover stylish and comfortable furniture for your living room,bedroom and office</p>
+            <button class="heroButton">Shop Now</button>
+        </div>
+        <!-- image -->
+         <div>
+            <img id="furnitureImage" src="./images/fur1.png" alt="Image Unavailable">
+         </div>
+      </section>
+      <!-- products section -->
+       <section id="products" class="products">
+        <!-- heading -->
+         <h2 class="productHead">Our Products</h2>
+         <!-- product container -->
+          <div class="productContainer">
+            <div class="card">
+                <img height="350px" width="270px" class="cardImage" src="./images/tab1.png" alt="Image Unavailable">
+                <h3 class="productName">Table 1</h3>
+                <p class="price">$100</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <img height="350px" width="270px" class="cardImage" src="./images/tab2.png" alt="Image Unavailable">
+                <h3 class="productName">Table 2</h3>
+                <p class="price">$120</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+
+            <div class="card">
+                <img height="350px" width="270px" class="cardImage" src="./images/tab3.png" alt="Image Unavailable">
+                <h3 class="productName">Table 3</h3>
+                <p class="price">$150</p>
+                <button class="productButton">Buy Now</button>
+            </div>
+          </div>
+       </section>
+       <!-- banner -->
+        <section id="banner" class="banner">
+            <h2 class="bannerHead">About Us</h2>
+            <p class="bannerPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium harum perferendis consequuntur assumenda minima saepe dolorem magnam inventore ad vitae, optio amet voluptatum dolorum, molestias voluptates in, nesciunt ea explicabo?
+            Magnam repudiandae quibusdam quod soluta numquam similique, voluptatibus vero quasi nobis autem. Aliquam unde dicta minus corrupti doloribus commodi suscipit, ea dolorem eaque, similique et ducimus aperiam nam, vero sunt.
+            Totam, et quo eos sit atque consequatur. Perferendis aliquid voluptate ipsam adipisci laudantium veniam fuga laboriosam ad dicta deserunt itaque enim unde error doloremque corporis sit, architecto at debitis! Sapiente.</p>
+            <button class="heroButton bannerButton" id="bannerButton">Let's Talk</button>
+        </section>
+
+        <!-- footer -->
+         <section id="content" class="content">
+            
+                <!-- text -->
+                 <div class="contentText">
+                    <h3 class="contentHead">Contact Us</h3>
+                    <h4 class="contentPh">+100-35954815</h4>
+                    <p class="contentMail">info@mail.com</p>
+                    <!-- icons -->
+                     <div class="socialIcons">
+                        <a href="https://www.facebook.com/" target="_blank" class="smLink"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://x.com/" target="_blank" class="smLink"><i class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://in.pinterest.com/" target="_blank" class="smLink"><i class="fa-brands fa-pinterest"></i></a>
+                     </div>
+                
+                 </div>
+                 <!-- subscribe -->
+                  <div class="subscribe">
+                    <h3 class="subscribeHead">Join our Mail List</h3>
+                    <div class="box">
+                        <input type="text" placeholder="Email" class="subInput">
+                        <button class="heroButton subButton">Subscribe</button>
+                    </div>
+                  </div>
+            
+         </section>
+         <footer class="footer">
+            <p> &copy; Designed by Luminar Technolab, All Rights Reserved 2026</p>
+         </footer>
+</body>
+</html>
